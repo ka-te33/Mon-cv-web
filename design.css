@@ -1,0 +1,52 @@
+.rouge{
+    color: red;
+}
+.blanc{
+    color: white;
+    background-color: black;
+}
+
+.image{
+    background-color:#333333;
+    margin: 0px auto;
+    border: 5px solid red;
+    border-radius:10px ;
+
+}
+img{
+   width: 100%;
+}
+
+figcaption{
+    color: white;
+}
+
+.cadre{
+    border:3px  dashed #574BAE;
+    background-color: #B7B7B7;
+    margin: 25px;
+    padding: 10px;
+    color: #574BAE;
+}
+.dark-back{
+    background-color: darkgray;
+}
+tr:hover{
+    background-color: grey;
+}
+body{
+    background-color:#C8C8C8;
+    margin: 80px;
+}
+
+table{
+    cursor: pointer;
+}
+h1,h2{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+}

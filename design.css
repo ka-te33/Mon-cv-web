@@ -1,15 +1,12 @@
-.rouge{
-    color: red;
-}
-.blanc{
+.entete{
     color: white;
-    background-color: black;
+    background-color: #333333;
 }
 
 .image{
     background-color:#333333;
     margin: 0px auto;
-    border: 5px solid red;
+    border: 3px solid red;
     border-radius:10px ;
     padding: 25px 25px 40px 25px;
     margin-top: 20px;
@@ -21,23 +18,25 @@ img{
 
 figcaption{
     color: white;
-    font-style: italic;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 19px;
     text-align: center;
     padding-top: 15px;
 }
 
 .cadre{
-    border:3px  dashed #574BAE;
+    border:3px  dashed #6400B1;
     background-color: #B7B7B7;
     margin: 25px;
     padding: 10px;
-    color: #574BAE;
+    color: #6400B1;
 }
 .dark-back{
-    background-color: darkgray;
+    background-color: #DDDDDD;
 }
-tr:hover{
-    background-color: grey;
+.entete ~ tr:hover{
+    background-color: #999999;
 }
 body{
     background-color:#C8C8C8;
@@ -47,6 +46,7 @@ body{
 
 table{
     cursor: pointer;
+    border-collapse: collapse;
 }
 .titre1{
     font-family: 'Libre Baskerville-Bold', serif;
@@ -63,4 +63,12 @@ table{
 
 a{
     font-weight: bold;
+    color: red;
+}
+
+th,td{
+    padding: 10px;
+}
+h2{
+    margin: 0px;
 }

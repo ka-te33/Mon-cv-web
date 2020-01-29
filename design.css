@@ -11,6 +11,8 @@
     margin: 0px auto;
     border: 5px solid red;
     border-radius:10px ;
+    padding: 25px 25px 40px 25px;
+    margin-top: 20px;
 
 }
 img{
@@ -19,6 +21,9 @@ img{
 
 figcaption{
     color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 15px;
 }
 
 .cadre{
@@ -36,17 +41,26 @@ tr:hover{
 }
 body{
     background-color:#C8C8C8;
-    margin: 80px;
+    margin: 100px;
+    font-family: 'Roboto', serif;
 }
 
 table{
     cursor: pointer;
 }
-h1,h2{
+.titre1{
+    font-family: 'Libre Baskerville-Bold', serif;
+    font-size: 60px;
     text-align: center;
-    font-family: 'Libre Baskerville', serif;
 }
-body{
 
-    font-family: 'Roboto', sans-serif;
+.titre2{
+    font-family: 'Libre Baskerville-Regular', serif;
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+}
+
+a{
+    font-weight: bold;
 }

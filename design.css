@@ -29,8 +29,10 @@ figcaption{
     border:3px  dashed #6400B1;
     background-color: #B7B7B7;
     margin: 25px;
-    padding: 10px;
+    padding: 25px;
     color: #6400B1;
+    font-size: 22px;
+    line-break: auto;
 }
 .dark-back{
     background-color: #DDDDDD;

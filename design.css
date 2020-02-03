@@ -6,7 +6,7 @@
 .image{
     background-color:#333333;
     margin: 0px auto;
-    border: 3px solid red;
+    border: 3px solid rgb(218, 3, 3);
     border-radius:10px ;
     padding: 25px 25px 40px 25px;
     margin-top: 20px;
@@ -31,8 +31,9 @@ figcaption{
     margin: 25px;
     padding: 25px;
     color: #6400B1;
-    font-size: 22px;
+    font-size: 1.1em;
     line-break: auto;
+    line-height: 1.7em;
 }
 .dark-back{
     background-color: #DDDDDD;
@@ -59,13 +60,13 @@ table{
 .titre2{
     font-family: 'Libre Baskerville-Regular', serif;
     font-weight: bold;
-    color: red;
+    color: rgb(218, 3, 3);
     font-size: 25px;
 }
 
 a{
     font-weight: bold;
-    color: red;
+    color: rgb(218, 3, 3);
 }
 
 th,td{

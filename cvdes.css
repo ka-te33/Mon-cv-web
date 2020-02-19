@@ -1,0 +1,1013 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+h3{
+  font-family: 'Lato', sans-serif;
+}
+body,header{
+  margin:0px;
+  padding: 0px;
+}
+header,body,html{
+  /* width: 100%; */
+  height: 100%;
+}
+body{
+  font-family: arial;
+  transform-style: preserve-3d;
+}
+header{
+  background: url("cvpic/imagefond.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5px;
+  color:white;
+}
+
+
+@media (max-width:1600px)
+{
+  
+  .infos .saving a{
+    margin: auto;
+  }
+  .menu{
+    display: inline-block;
+  }
+ .section{
+   flex-wrap: wrap;
+ }
+ 
+}
+@media (max-width:750px)
+{
+  .content{
+    position: relative;
+    top: -50px;
+  }
+  .section2 ul{
+    margin-left: -30px;  
+}
+.section3{
+  margin-top: 50px;
+}
+.section3 h3{
+  font-size: 1em;
+  margin-top: -40px;
+}
+.titre h3{
+  margin-top: -20px;
+}
+.section2 .contact_rapide ul img{
+ width: 8px;
+ height: 10px;
+}
+  .section03 .box .card .face{
+    width: 40%;
+    height: 150px;
+  }
+.box{   
+    left:50%;
+    top:1px;
+    flex-wrap: wrap;   
+  }
+.box p{
+  font-size: 10px;
+  margin-top: 200px;
+  }
+.box h2{
+  margin-top: 50px;
+  }
+.section6{
+  padding-top:250px
+  }
+.photo-portfolio{
+  width: auto;
+  }
+.section6 .pic1{
+  width: 170px;
+  height: 150px;
+  }
+.photo-portfolio3{
+  width: auto;
+  }
+.section6 .pic3{
+  width: 80px;
+  height: 130px;
+  }
+.section6 .pic2{
+  width: 80px;
+  height: 180px;
+  }
+.social{
+  margin-left: 100px;
+  }
+.photo-portfolio5{
+  width: auto;
+  margin:auto;
+  }
+.section6 .pic5{
+  width: 180px;
+  height: 150px;
+  
+  }
+.photo-portfolio4{
+  width: auto;
+  }
+.section6 .pic4{
+  width: 100px;
+  height: 150px;
+  }
+.photo-portfolio6{
+  width: auto;
+  }
+.section6 .pic6{
+  width: 70px;
+  height: 130px;
+  } 
+  .section3,.section4{
+    margin-left: -100px;
+    margin-top: 100px;
+  }
+}
+@media (max-width:500px)
+{
+  footer{
+    width: 105%;   
+  }
+  .infos p{
+    font-size: 13px;
+    text-align: center;
+  }
+  .infos .saving a{
+    margin: auto;
+  }
+  .menu{
+    height: 0;
+    opacity: 0;
+  }
+  /* .about{
+    position: relative;
+    top:-10px;
+  } */
+  .about p{
+    font-size: 10px;
+   text-align: start;
+  }
+  .contact_rapide{
+    margin-left: 5px;
+  }
+  .contact_rapide ul li img {
+    width: 1%;
+    height: 5%;
+}
+  .contact_rapide li{
+    font-size: 15px;
+    line-height: 2px;
+  }
+  .enfant{
+    display: flex;
+    /* flex-wrap: column;  */
+  }
+  .enfant > div {
+    margin: 105px;
+  }
+  
+  .skills li,.skills2 li{
+      font-size: 10px;
+  }
+  
+ 
+  .menu{
+    display: inline-block;
+  }
+  .titre,.design h3{
+    margin-left: -2px;
+    font-size: 15px;
+  }
+
+  .section3{
+    margin-left: -100px;
+    margin-top: 250px;
+  }
+  .section4{
+    margin-top: 200px;
+  }
+ .section4{
+   position: relative;
+   top: 50px;
+ }
+ .parcours{
+   background-color: rgb(245, 245, 245);
+    padding-top: 250px;
+ }
+  .section03{
+    position: relative;
+    top:50px;
+  }
+  .section03 .box .card .face{
+      width: 50%;
+      height: 150px;
+  }
+  .box{   
+      left:50%;
+      top:1px;
+      flex-wrap: wrap;   
+  }
+  .box p{
+    font-size: 10px;
+    margin-top: 180px;
+  }
+  .box h2{
+    font-size: 20px;
+  }
+.section5{
+  padding-top: 200px;
+}
+.section6{
+  padding-top:250px
+}
+.photo-portfolio{
+  width: auto;
+}
+.section6 .pic1{
+  width: 170px;
+  height: 150px;
+}
+.photo-portfolio3{
+  width: auto;
+}
+.section6 .pic3{
+  width: 80px;
+  height: 130px;
+}
+.section6 .pic2{
+  width: 80px;
+  height: 180px;
+}
+.social{
+  margin-left: 100px;
+}
+.photo-portfolio5{
+  width: auto;
+  margin:auto;
+}
+.section6 .pic5{
+  width: 180px;
+  height: 130px;
+  
+}
+.photo-portfolio4{
+  width: auto;
+}
+.section6 .pic4{
+  width: 100px;
+  height: 150px;
+}
+.photo-portfolio6{
+  width: auto;
+}
+.section6 .pic6{
+  width: 90px;
+  height: 150px;
+}
+  body,html{
+    min-width: 320px;
+  }
+  .infos h2{
+    text-align: center;
+  }
+  .infos p,a{
+    text-align: center;
+  }
+  
+}
+/*ecran d'acceuil*/
+.logo-name{
+  letter-spacing: 1px;
+  float:left;
+  color:white;
+  font-size:0.6em;
+  line-height: 80px;
+  padding:0 10em;
+  margin-top: 22px;
+}
+.menu{
+  position:sticky;
+  top:60px;
+  left:250px;
+}
+.menu ul{
+  margin:0px;
+  padding: 0px;
+  list-style: none;
+
+}
+.menu ul li {
+  float: left;
+  width:150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+}
+.menu ul li a::after{
+  content: "";
+display: none;
+position: absolute;
+width: 0;
+height: 25px;
+bottom: 6px;
+left: 10%;
+background-color:#fd0f0f;
+transition: all .28s ease-in-out;
+}
+.menu ul li a::before{
+  box-sizing: border-box;
+}
+.menu ul li a:hover{
+  text-decoration: underline;
+}
+
+.menu ul li ul li{
+  display: none;
+  background-color: black;
+  opacity: .8;
+}
+.menu ul li:hover ul li{
+  display: block;
+}
+.wraper{
+  display: table;
+  width: 100%;
+  height:100%;
+}
+.content{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.infos{
+  margin:100px 0px 0px 30px;
+  line-height: 20px;
+}
+.infos .dot{
+  color: white;
+  margin-left: 630px;
+    display: block;
+
+    height: 40px;
+    width: 20px;
+    border: 2px solid white;
+    border-radius: 24px;
+}
+.dot{
+  transition: 0.5s ease-in;
+}
+.infos .dot:hover{
+  
+    transform: scale(1.3);
+    box-shadow: 0 0 5px white;
+}
+@keyframes blink {
+  0% {
+    opacity: .2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+.section1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:1px;
+}
+.about {
+    padding:0 3em;
+    line-height: 1.5em;
+}
+.section2 .contact_rapide{
+  font-size: 0.9em;
+  /* margin-left: 50px; */
+  margin-top: -50px;
+}
+.contact_rapide{
+  position: relative;
+  left:1px;
+  top:30px;
+  font-size: 1em;
+  padding-left: 5px;
+}
+.contact_rapide ul img{
+  width: 3%;
+  height: 5%;
+}
+.contact_rapide li{
+  line-height: 40px;
+  margin-left: 10px;
+}
+ul{
+  list-style-type: none;
+}
+.section2 {
+    
+     left:690px;
+    top:645px; 
+    width: 500px;
+    margin: 50px 0;  
+}
+.section2 .contact_rapide img{
+ 
+  width: 10px;
+  height: 13px;
+}
+.container{
+  flex-basis: 50%;
+}
+.container2{
+  flex-basis: 50%;
+}
+/*emplacement skills*/
+.skills li {
+    position: relative;
+    list-style: none;
+    margin: 30px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.enfant{
+  display: flex;
+  flex-wrap: nowrap; 
+  flex-basis: auto;
+}
+.enfant > div {
+  margin: 20px;
+}
+.skills li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 35%;
+    height: 10px;
+    background-color: rgba(181, 181, 181, 255);
+    opacity: .2;
+    border-radius: 1000px;
+}
+
+.skills li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 35%;
+    height: 10px;
+    background-color: rgba(255, 170, 0, 255);
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+/*ces animations font parti de la section1*/
+li.photoshop:after {
+    animation-name: photoshop;
+}
+
+@keyframes photoshop {
+    to {
+        width: 30%;
+    }
+}
+
+li.illustrator:after {
+    animation-name: illustrator ;
+}
+
+@keyframes illustrator {
+    to {
+        width: 20%;
+    }
+}
+
+li.indesign:after {
+    animation-name: indesign;
+}
+
+@keyframes indesign {
+    to {
+        width: 25%;
+    }
+}
+
+li.premiere:after {
+    animation-name: premiere;
+}
+
+@keyframes premiere {
+    to {
+        width: 30%;
+    }
+}
+li.after:after {
+    animation-name: after;
+}
+
+@keyframes after {
+    to {
+        width: 70%;
+    }
+}
+li.corel:after {
+    animation-name: corel;
+}
+
+@keyframes corel {
+    to {
+        width: 70%;
+    }
+}
+li.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 60%;
+    }
+}
+li.css:after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 60%;
+    }
+}
+/*emplacement skills2*/
+.skills2 li {
+    position: relative;
+    list-style: none;
+    margin: 35px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.skills2 li:before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 35%;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 249);
+  opacity: 6%;
+  border-radius: 1000px;
+}
+
+.skills2 li:after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 10px;
+  background-color: rgba(255, 170, 0, 255);
+  border-radius: 1000px;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+/*ces animatons font parti de la section2*/
+li.after:after {
+    animation-name: after;
+}
+
+@keyframes after {
+    to {
+        width: 25%;
+    }
+}
+
+li.corel:after {
+    animation-name: corel;
+}
+
+@keyframes corel {
+    to {
+        width: 15%;
+    }
+}
+
+li.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 18%;
+    }
+}
+
+li.css:after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 10%;
+    }
+}
+.titre h3{
+  font-size: 30px;
+  
+  text-align: center;
+  text-decoration: underline;
+}
+.section3{
+  position: absolute;
+  left:150px;
+  right:15%;
+  top:240%;
+  border-bottom: 1px solid black;
+}
+.section4{
+  position: absolute;
+  left:150px;
+  right:15%;
+  top:245%;
+}
+.design{
+  display: inline-block;
+  width: 28%;
+  margin: 2%;
+}
+.parcours{
+  margin-top: 140px;
+  background: rgb(245, 245, 245);
+  width: 100%;
+  height: 520px;
+} 
+.parcours{
+  text-align: center;
+}
+.parcours p{
+  font-size: 17px;
+}
+.titre {
+  text-align: center;
+  margin-top: -250px;
+}
+
+.design{
+  display: inline-block;
+  width: 28%;
+  margin: 2%;
+}
+.design p{
+  text-align: center;
+}
+
+
+/*animation parcours*/
+.section03{
+  position: relative;
+  margin-top: 450px;
+}
+.section03 .titre h3{
+  font-size: 30px;
+  
+  text-align: center;
+  text-decoration: underline;
+}
+.box{
+    width: 100%;
+    /* position: relative;
+    left:10%;
+    top:1px; */
+    display: flex;
+    justify-content: space-around;
+  
+}
+.box .card
+{
+   position: relative;
+}
+.box .card .face
+{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+.box .card .face.face1
+{
+    position: relative;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+.box .card:hover .face.face1{
+    background: #ffaa00;
+    transform: translateY(0px);
+}
+.box .card .face.face1 .content{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.box .card:hover .face.face1 .content{
+    opacity: 5;
+}
+.box.card .face.face1 .content img{
+    max-width: 100px;
+}
+.box .card .face.face1 .content h3{
+    max-width: 10px ;
+    padding: 0;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.box .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-100px);
+}
+.box .card:hover .face.face2{
+    transform: translateY(0px);
+}
+.container .card .face.face2 .content p{
+    margin:0;
+    padding: 0;
+}
+.box .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color:#ffaa00;
+    padding: 5px;
+    border: 1px solid #333;
+
+}
+.box .card .face.face2 .content a:hover
+{
+    background: #333;
+    color:#fafafa;
+}
+.card h3{
+  font-family:"Bitstream Vera Sans Mono","Courier 10 Pitch","Nimbus Mono L",Monaco,"Courier New",Courier,"OCR A Extended","DejaVu Sans Mono","Lucida Console",monospace;
+}
+.content img{
+  width: 30px;
+  height: 30px;
+}
+/*expériences contenues*/
+.section5 .title h3{
+  font-size: 30px; 
+  text-align: center;
+  text-decoration: underline;
+}
+.section5{
+  position: absolute;
+  right:4%;
+  margin-top: 50px;
+  text-align:center;
+}
+.experience{
+  display: inline-block;
+  width: 40%;
+  margin: 2%;
+  border: 1px solid #fff;
+  background-color: #fafafa;
+  box-shadow: 8px 8px 22px 3px rgba(0, 0, 0, 0.18);
+}
+.experience:hover{
+  transform: scale(1.05);
+}
+.experience h3{
+    color: #ffaa00;
+}
+.title{
+  text-align: center;
+}
+/*PORTFOLIO*/
+.section6 .title h3{
+  font-size: 30px;
+ 
+  text-align: center;
+  text-decoration: underline;
+}
+.section6{
+  position: absolute;
+  
+  right:4%;
+  margin-top: 800px;
+  text-align:center;
+}
+.photo-portfolio{
+  display: inline-block;
+  width: 40%;
+  margin: 2%;
+  border: 1px solid #aeaeae;
+  border-radius: 20px;
+  background-color: #aeaeae;
+}
+
+.pictures{
+  transition: 0.5s ease-in;
+}
+
+.pictures:hover{
+
+  transform: scale(1.05);
+  box-shadow: 6px 6px 18px 2px rgba(0, 0, 0, 0.18);
+}
+.pic1{
+  width: 460px;
+  height: 380px;
+}
+.photo-portfolio2{
+  display: inline-block;
+  width: 20%;
+  margin: 2%;
+  border: 1px solid #cbcbd7;
+  border-radius: 20px;
+  background-color: #cbcbd7;
+}
+.pic2{
+  width: 120px;
+  height: 250px;
+}
+.photo-portfolio3{
+  display: inline-block;
+  width: 15%;
+  margin: 2%;
+  border: 1px solid #cbcbd7;
+  border-radius: 20px;
+  background-color: #cbcbd7;
+}
+
+.pic3{
+  width: 200px;
+  height: 280px;
+}
+.photo-portfolio4{
+  display: inline-block;
+  width: 21%;
+  margin: 1.2%;
+  border: 1px solid #f4f4f5;
+  border-radius: 20px;
+  background-color: #f4f4f5;
+}
+
+.pic4{
+  width: 240px;
+  height: 330px;
+}
+.photo-portfolio5{
+  display: inline-block;
+  width: 42%;
+  margin: 2%;
+  border: 1px solid #d6d6d6;
+  border-radius: 20px;
+  background-color: #d6d6d6;
+}
+
+.pic5{
+  width: 490px;
+  height: 370px;
+}
+.photo-portfolio6{
+  display: inline-block;
+  width: 20%;
+  margin: 4%;
+  border: 1px solid #EC9E3C;
+  border-radius: 10px;
+  background-color: #EC9E3C;
+}
+
+.pic6{
+  width: 230px;
+  height: 350px;
+}
+/*footer*/
+footer{
+  background-color: #f1f1f1;
+  width: 104%;
+  height: 200px;
+}
+.social{
+  position: relative;
+  top:60px;
+}
+/* Style the Un-order list by setting its list-style to none */
+.social a {
+  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height
+  and float them to left and set its border and border-radius.
+ */
+.social a {
+  width: 60px;
+  height: 60px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid black;
+  display:inline-block;
+  transition: all 0.5s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px
+to align it properly */
+.social a .fa {
+  color: #D8E2DC;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.social a:hover.btn {
+  border: 5px solid black;
+  box-shadow: 0 0 15px #fafafa;
+  transition: all 0.5s ease;
+}
+
+.social a:hover .icofont-facebook {
+  color: black;
+  text-shadow: 0 0 15px #fafafa;
+  transition: all 0.5s ease;
+}
+
+/*twitter*/
+.social a:hover.btn {
+  border: 5px solid black;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.social a:hover .icofont-twitter {
+  color: black;
+  text-shadow: 0 0 15px #ffb000;
+  transition: all 0.5s ease;
+}
+
+/* linkedin */
+.social a:hover.btn {
+  border: 5px solid black;
+  box-shadow: 0 0 15px #ffb000;
+  transition: all 0.5s ease;
+}
+
+.social a:hover .icosfont-linkedi {
+  color: black;
+  text-shadow: 0 0 15px #ffb000;
+  transition: all 0.5s ease;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 640px){
+  .social {
+      width: 350px; 
+  }
+
+  .social a.google{
+      margin-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .social {
+      width: 150px;
+  }
+  .social ul a{
+      margin:15px;
+  }
+  .social ul a.google{
+      margin-left: 15px;
+  }
+}

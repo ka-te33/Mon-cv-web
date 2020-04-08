@@ -47,9 +47,9 @@ header{
   .section2 ul{
     margin-left: -30px;  
 }
-.section3{
+/* .section3{
   margin-top: 50px;
-}
+} */
 .section3 h3{
   font-size: 1em;
   margin-top: -40px;
@@ -124,16 +124,14 @@ header{
   width: 70px;
   height: 130px;
   } 
-  .section3,.section4{
+  /* .section3,.section4{
     margin-left: -100px;
     margin-top: 100px;
-  }
+  } */
 }
 @media (max-width:500px)
 {
-  footer{
-    width: 105%;   
-  }
+  
   .infos p{
     font-size: 13px;
     text-align: center;
@@ -154,7 +152,7 @@ header{
    text-align: start;
   }
   .contact_rapide{
-    margin-left: 5px;
+    margin-left: -70px;
   }
   .contact_rapide ul li img {
     width: 1%;
@@ -171,23 +169,19 @@ header{
   .enfant > div {
     margin: 105px;
   }
-  
+  .competences .section2 {
+    padding:0 5em;
+      width: 100px;
+      margin: 50px 0;  
+  }
   .skills li,.skills2 li{
       font-size: 10px;
   }
-  
- 
   .menu{
     display: inline-block;
   }
   .titre,.design h3{
-    margin-left: -2px;
-    font-size: 15px;
-  }
-
-  .section3{
-    margin-left: -100px;
-    margin-top: 250px;
+    margin-left: -2px;   
   }
   .section4{
     margin-top: 200px;
@@ -196,13 +190,28 @@ header{
    position: relative;
    top: 50px;
  }
- .parcours{
-   background-color: rgb(245, 245, 245);
-    padding-top: 250px;
+ .parcours{  
+    padding-top: 90px;
  }
+ .parcours .section3 .titre h3 {
+  font-size: 25px;
+  }
+  .parcours h3{
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .parcours,.experience p{
+    font-size: 10px;
+  }
+  .section4{
+  margin-top:-70px;
+  }
+ #section03 .titre h3 {
+    font-size: 25px;
+    }
   .section03{
     position: relative;
-    top:50px;
+    top:200px;
   }
   .section03 .box .card .face{
       width: 50%;
@@ -218,10 +227,16 @@ header{
     margin-top: 180px;
   }
   .box h2{
-    font-size: 20px;
+    font-size: 15px;
   }
 .section5{
   padding-top: 200px;
+}
+#section5 .experience h3{
+  font-size: 15px;
+}
+#section5 .title h3{
+  font-size: 25px;
 }
 .section6{
   padding-top:250px
@@ -271,7 +286,7 @@ header{
   height: 150px;
 }
   body,html{
-    min-width: 320px;
+    width: 100%;
   }
   .infos h2{
     text-align: center;
@@ -279,7 +294,11 @@ header{
   .infos p,a{
     text-align: center;
   }
-  
+  .step{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 200px;
+  }
 }
 /*ecran d'acceuil*/
 .logo-name{
@@ -392,10 +411,10 @@ transition: all .28s ease-in-out;
 .about {
     padding:0 3em;
     line-height: 1.5em;
+    margin-top: 40px;
 }
 .section2 .contact_rapide{
   font-size: 0.9em;
-  /* margin-left: 50px; */
   margin-top: -50px;
 }
 .contact_rapide{
@@ -417,9 +436,7 @@ ul{
   list-style-type: none;
 }
 .section2 {
-    
-     left:690px;
-    top:645px; 
+  padding:0 5em;
     width: 500px;
     margin: 50px 0;  
 }
@@ -432,7 +449,7 @@ ul{
   flex-basis: 50%;
 }
 .container2{
-  flex-basis: 50%;
+  flex-basis: 30%;
 }
 /*emplacement skills*/
 .skills li {
@@ -522,7 +539,7 @@ li.after:after {
 
 @keyframes after {
     to {
-        width: 70%;
+        width: 40%;
     }
 }
 li.corel:after {
@@ -549,7 +566,7 @@ li.css:after {
 
 @keyframes css {
     to {
-        width: 60%;
+        width: 40%;
     }
 }
 /*emplacement skills2*/
@@ -565,7 +582,7 @@ li.css:after {
   position: absolute;
   top: calc(100% + 10px);
   left: 0;
-  width: 35%;
+  width: 65%;
   height: 10px;
   background-color: rgba(0, 0, 0, 249);
   opacity: 6%;
@@ -592,7 +609,7 @@ li.after:after {
 
 @keyframes after {
     to {
-        width: 25%;
+        width: 40%;
     }
 }
 
@@ -612,7 +629,7 @@ li.html:after {
 
 @keyframes html {
     to {
-        width: 18%;
+        width: 28%;
     }
 }
 
@@ -631,26 +648,47 @@ li.css:after {
   text-align: center;
   text-decoration: underline;
 }
-.section3{
+/* .section3{
   position: absolute;
   left:150px;
   right:15%;
   top:240%;
   border-bottom: 1px solid black;
-}
-.section4{
+} */
+/* .section4{
   position: absolute;
   left:150px;
   right:15%;
   top:245%;
-}
-.design{
+} */
+/* .design{
   display: inline-block;
   width: 28%;
   margin: 2%;
+} */
+.parcours .titre h3{
+  font-size: 30px; 
+  text-align: center;
+  text-decoration: underline;
 }
 .parcours{
-  margin-top: 140px;
+  position: absolute;
+  right:3%;
+  margin-top: 35%;
+  text-align:center;
+}
+.design{
+  display: inline-block;
+  width: 60%;
+  margin: 2%;
+  /* border: 1px solid rgb(187, 7, 7); */
+ 
+}
+.titre{
+  text-align: center;
+}
+/* .parcours{
+  margin-top: 300px;
   background: rgb(245, 245, 245);
   width: 100%;
   height: 520px;
@@ -660,14 +698,14 @@ li.css:after {
 }
 .parcours p{
   font-size: 17px;
-}
+} */
 .titre {
   text-align: center;
   margin-top: -250px;
 }
 
 .design{
-  display: inline-block;
+  /* display: inline-block; */
   width: 28%;
   margin: 2%;
 }
@@ -679,7 +717,7 @@ li.css:after {
 /*animation parcours*/
 .section03{
   position: relative;
-  margin-top: 450px;
+  margin-top: 83%;
 }
 .section03 .titre h3{
   font-size: 30px;
